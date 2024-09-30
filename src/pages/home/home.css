@@ -1,0 +1,257 @@
+.home-page-cards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;  
+}
+
+.home-page-cards .home-page-col-one{
+    width: 25%;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.348);
+}
+
+.col-card-one-img1 img{
+    width: 100%;
+    height: 70px;
+    background-position: top;
+}
+
+.home-page-col-one{
+    background-color: white;
+    border-radius: 4px;
+    
+}
+
+.col-card-one-img2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-card-one-img2 img{
+width: 95px;
+height: 85px;
+border-radius: 50px;
+position: absolute;
+top: -40px;
+}
+
+.colname{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 9px;
+}
+
+.colbio{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0,0.6);
+}
+
+.reviewed-Colone{
+    display: flex;
+    padding: 5px 20px 3px 20px;
+    justify-content: space-between;
+}
+
+.reviewed-Coltwo{
+    display: flex;
+    padding: 3px 20px 3px 20px;
+    justify-content: space-between;
+}
+
+.reviewed-Colone span:first-child{
+    color: rgb(0, 0, 0,0.6);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.reviewed-Colone span:last-child{
+    color: #0a66c2;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reviewed-Coltwo span:first-child{
+    color: rgb(0, 0, 0,0.6);
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.reviewed-Coltwo span:last-child{
+    color: #0a66c2;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.premium p{
+    color: rgb(0, 0, 0,0.6);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 20px 3px 20px;
+}
+
+.premium-text{
+   display: flex;
+   padding: 5px 20px 3px 20px;
+   column-gap: 15px;
+   padding-bottom: 20px;
+}
+
+.premium-text-2{
+    display: flex;
+    padding: 5px 20px 3px 20px;
+    column-gap: 10px;
+ }
+
+ .premium-text-3{
+    display: flex;
+    padding: 5px 20px 3px 20px;
+    column-gap: 10px;
+ }
+
+ .premium-text-3 img{
+    width: 25px; 
+}
+
+.premium-text-3 p{
+    font-size: 20px;
+    color: rgb(0, 0, 0,0.6);
+    font-weight: 600;
+}
+
+.premium-text h4 a{
+   text-decoration: none;
+}
+
+.home-page-cards .home-page-col-two{
+    width: 45%;
+    height: 250px;
+    padding: 20px;
+    margin-top: -20px;
+    
+}
+
+.home-page-col-two-inner{
+    background-color: white; 
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.348);
+
+}
+
+.second-col-search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 12px 15px 12px;
+    gap: 10px;
+}
+
+.second-col-search img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.second-col-search input:hover{
+    background-color: #eef3f8;
+    
+}
+.second-col-search input{
+        width: 100%;
+        height: 60px;
+        border-radius: 25px;
+        border: 1px solid hsla(0, 0%, 50%, 0.312);
+        outline: none;
+        padding: 15px 20px;
+        font-size: 20px;
+}
+
+.media-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.post-container{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid hsla(0, 0%, 50%, 0.312);
+}
+
+.post-container-one{
+    display: flex;
+    padding: 5px 20px 3px 20px;
+    justify-content: space-between;
+}
+
+.post-container-comment{
+     color: grey;
+     font-size: larger;
+}
+
+.post-container-link {
+    color: #0a66c2;
+    font-size: x-large;
+}
+
+.comment-dot{
+    color: black;
+    font-size: 20px;
+}
+
+.post-content-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px 10px 8px 10px;
+    gap: 10px;
+}
+
+.post-content img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.post-content-subtext{
+    margin-top: 15px;
+}
+.post-content-subtext h1{
+   font-size: 18px;
+}
+
+.post-content-subtext p{
+ font-size: 15px;
+}
+
+.mainpost{
+ padding: 0px 15px 2px 15px;
+ font-size: 13px;
+ font-weight: 600;
+ color: rgb(0, 0, 0,0.6);
+}
+
+.mainpost img{
+   width: 100%;
+   margin-top: 10px;
+   }
+.home-page-cards .home-page-col-three{
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+}
